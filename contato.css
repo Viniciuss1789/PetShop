@@ -1,0 +1,66 @@
+html {
+   background-color: antiquewhite
+}
+
+.logo {
+   width: 150px;
+   height: 150px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.inicio {
+   text-align: center;
+}
+
+ul {
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   align-items: center;
+   padding: 50px;
+}
+
+.contato {
+   text-align: center;
+   padding: 30px;
+}
+
+
+a {
+   text-decoration: none;
+   background-color: brown;
+   border: brown solid;
+   border-radius: 20px;
+   color: white;
+}
+
+a:hover {
+   background-color: blue;
+   border: blue solid;
+   transition: 0.5s;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+   text-align: center;
+   background-color: brown;
+   border: brown solid;
+   color: white;
+   padding: 30px;
+}
+
+div img {
+   width: 150px;
+   height: 150px;
+   justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+   .dogs, .inicio{
+       width: 100%;
+   }
+}
